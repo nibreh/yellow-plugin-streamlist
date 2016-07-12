@@ -12,7 +12,7 @@ Check also [Medialist Plugin](https://github.com/nibreh/yellow-plugin-medialist)
 ## How do I install this?
 
 1. Download and install [Yellow](https://github.com/datenstrom/yellow/).
-2. Download and unzip [audio playlist plugin](https://github.com/nibreh/yellow-plugin-streamlist/archive/master.zip).
+2. Download and unzip [Streamlist plugin](https://github.com/nibreh/yellow-plugin-streamlist/archive/master.zip).
 3. Copy `streamlist.php` & `streamlist.js` into your `system/plugins` folder.
 
 You can also install [Fontawesome Plugin](https://github.com/datenstrom/yellow-plugins/tree/master/fontawesome)
