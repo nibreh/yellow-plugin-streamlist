@@ -24,7 +24,7 @@ class YellowStreamlist
 	{
 
 		$output = NULL;
-		if($name=="stream" && $shortcut)
+		if($name=="streamlist" && $shortcut)
 		{
 			list($streamurl, $streamname) = $this->yellow->toolbox->getTextArgs($text);
             		if(empty($streamname)) $streamname = "Stream Name ?";
