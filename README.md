@@ -5,7 +5,7 @@ Plugin for [YellowCMS](http://datenstrom.se/yellow/) using jquery.
 
 ![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-audio-playlist/master/screenradio.png)
 
-Inspired by http://devblog.lastrose.com/html5-audio-video-playlist.
+Inspired by the tutorial found on [Last Rose Studios](http://devblog.lastrose.com/html5-audio-video-playlist).
 
 Check also [Medialist Plugin](https://github.com/nibreh/yellow-plugin-medialist) & [Audio Plugin](https://github.com/schulle4u/yellow-plugin-audio) for different uses.
 
