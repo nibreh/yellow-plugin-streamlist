@@ -21,10 +21,10 @@ To uninstall delete the plugin.
 
 ## How to use Streamlist plugin?
 
-First you must stream some audio/radio using the [stream] shortcut like this:
+First you must stream some audio/radio using the [streamlist] shortcut like this:
 
-    [stream http://stream.url Name]
-    [stream http://another.url "Radio Name"]
+    [streamlist http://stream.url Name]
+    [streamlist http://another.url "Radio Name"]
 
 Then you must display the HTML5 audio tag player:
 
