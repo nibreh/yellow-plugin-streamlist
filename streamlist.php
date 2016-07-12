@@ -2,9 +2,9 @@
 // Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// HTML5 Audio Playlist plugin
+// HTML5 Streamlist plugin
 // Inspired by http://devblog.lastrose.com/html5-audio-video-playlist
-class YellowAudioPlaylist
+class YellowStreamlist
 {
 	const Version = "0.6.4";
 	var $yellow;			//access to API
@@ -56,11 +56,11 @@ class YellowAudioPlaylist
 		if($name=="footer")
 		{
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
-			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}audio-playlist.js\"></script>\n";
+			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}streamlist.js\"></script>\n";
 		}
 		return $output;
 	}
 }
 
-$yellow->plugins->register("audioplaylist", "YellowAudioPlaylist", YellowAudioPlaylist::Version);
+$yellow->plugins->register("streamlist", "YellowStreamlist", YellowStreamlist::Version);
 ?>
