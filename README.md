@@ -3,7 +3,7 @@
 **Stream audio url in a playlist.**  
 Plugin for [YellowCMS](http://datenstrom.se/yellow/) using jquery.  
 
-![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-audio-playlist/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-audio-playlist/master/screenradio.png)
 
 Inspired by http://devblog.lastrose.com/html5-audio-video-playlist.
 
