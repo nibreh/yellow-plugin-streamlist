@@ -27,6 +27,16 @@ Then you must display the HTML5 audio tag player:
 
     [player]
 
+## How to style my Playlist?
+
+Note: your playlist must not contain line break.
+
+    <style>
+    span a {color:#333;background:#eee;display:block;padding:5px;}
+    span a:hover {background: #ddd;}
+    span.active a {color:#333;background: #ddd;}
+    </style>
+
 ## Found some stream radios
 
 http://wikradio.free.fr
