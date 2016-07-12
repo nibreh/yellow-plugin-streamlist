@@ -36,8 +36,8 @@ Note: your playlist must not contain line break.
 
     <style>
     span a {color:#333;background:#eee;display:block;padding:5px;}
-    span a:hover {background: #ddd;}
-    span.active a {color:#333;background: #ddd;}
+    span a:hover {background:#ddd;}
+    span.active a {color:#333;background:#ddd;font-weight:bold;}
     </style>
 
 ## Found some stream radios
