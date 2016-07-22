@@ -27,8 +27,8 @@ Then you must create your playlist with some radio streams using the `[streamlis
 
 Following arguments are available:
 
-STREAMURL = url of the radio stream
-STREAMNAME = name of the radio - wrap multiple words into quotes
+`STREAMURL` = url of the radio stream  
+`STREAMNAME` = name of the radio - wrap multiple words into quotes
 
     [streamlist http://stream0.wfmu.org/freeform-128k WFMU]
     [streamlist http://stream0.wfmu.org/ichiban "Ichiban Rock and Soul"]
