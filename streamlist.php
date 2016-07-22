@@ -35,9 +35,7 @@ class YellowStreamlist
 
 		if($name=="player" && $shortcut)
 		{
-			$output .= "<audio id=\"player\" src=\"\" controls>\n";
-			$output .= "</audio>\r\n";
-
+			$output .= "<audio id=\"player\" controls></audio>\n";
 		}
 		return $output;
 	}
