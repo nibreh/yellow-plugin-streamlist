@@ -6,7 +6,7 @@
 // Inspired by http://devblog.lastrose.com/html5-audio-video-playlist
 class YellowStreamlist
 {
-	const Version = "0.6.4";
+	const VERSION = "0.6.4";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
@@ -23,7 +23,7 @@ class YellowStreamlist
 	function onParseContentBlock($page, $name, $text, $shortcut)
 	{
 
-		$output = NULL;
+		$output = null;
 		if($name=="streamlist" && $shortcut)
 		{
 			list($streamurl, $streamname) = $this->yellow->toolbox->getTextArgs($text);
@@ -45,7 +45,7 @@ class YellowStreamlist
 	// Handle page extra HTML data
 	function onExtra($name)
 	{
-		$output = NULL;
+		$output = null;
 
 		if($name=="header")
 		{
@@ -62,5 +62,5 @@ class YellowStreamlist
 	}
 }
 
-$yellow->plugins->register("streamlist", "YellowStreamlist", YellowStreamlist::Version);
+$yellow->plugins->register("streamlist", "YellowStreamlist", YellowStreamlist::VERSION);
 ?>
