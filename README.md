@@ -4,7 +4,7 @@ Stream your favorite radios in a playlist with HTML5 audio.
 
 *Your browser must support [HTML5 audio tag](https://en.wikipedia.org/wiki/HTML5_Audio)*.
 
-Inspired by the tutorial found on [Last Rose Studios](http://devblog.lastrose.com/html5-audio-video-playlist).
+Inspired by the tutorial from [Last Rose Studios](http://devblog.lastrose.com/html5-audio-video-playlist).
 
 Check also [Medialist Plugin](https://github.com/nibreh/yellow-plugin-medialist) & [Audio Plugin](https://github.com/schulle4u/yellow-plugin-audio) for different uses.
 
