@@ -1,0 +1,3 @@
+span.streamlist a {color:#333;background:#fafafa;display:block;padding:5px;}
+span.streamlist a:hover {background:#eee;}
+span.streamlist.active a {color:#333;background:#eee;font-weight:bold;}
