@@ -2,6 +2,7 @@
 
 **Stream url in a playlist with HTML5 audio tag.**  
 Plugin for [YellowCMS](http://datenstrom.se/yellow/) using jquery.  
+*Your browser must support [HTML5 audio tag](https://en.wikipedia.org/wiki/HTML5_Audio)*.
 
 ![screenshot](https://raw.githubusercontent.com/nibreh/yellow-plugin-streamlist/master/screenradio.png)
 
