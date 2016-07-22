@@ -2,7 +2,7 @@
 // Copyright (c) 2013-2015 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
-// HTML5 Streamlist plugin
+// HTML5 Streamlist plugin by nibreh
 // Inspired by http://devblog.lastrose.com/html5-audio-video-playlist
 class YellowStreamlist
 {
@@ -28,7 +28,7 @@ class YellowStreamlist
 		{
 			list($streamurl, $streamname) = $this->yellow->toolbox->getTextArgs($text);
             		if(empty($streamname)) $streamname = "Stream Name ?";
-			$output .= "<span>\n";
+			$output .= "<span class=\"streamlist\">\n";
 			$output .= "<a href=\"".htmlspecialchars($streamurl)."\"><i class=\"fa fa-play\"></i> ".htmlspecialchars($streamname)."\n";
 			$output .= "</a></span>\r\n";
 		}
@@ -56,6 +56,7 @@ class YellowStreamlist
 		if($name=="footer")
 		{
 			$pluginLocation = $this->yellow->config->get("serverBase").$this->yellow->config->get("pluginLocation");
+			$output .= "<link rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"{$pluginLocation}streamlist.css\" />\n";
 			$output .= "<script type=\"text/javascript\" src=\"{$pluginLocation}streamlist.js\"></script>\n";
 		}
 		return $output;
