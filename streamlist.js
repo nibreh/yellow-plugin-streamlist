@@ -7,8 +7,8 @@ init();
 function init(){
     current = 0;
     audio = $('#player');
-    playlist = $('span');
-    tracks = playlist.find('span a');
+    playlist = $('.streamlist');
+    tracks = playlist.find('.streamlist a');
     len = tracks.length - 1;
     audio[0].volume = 1;
     //audio[0].play();
