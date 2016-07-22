@@ -21,7 +21,14 @@ To uninstall delete the plugin files.
 
 ## How to use Streamlist plugin?
 
-First you must create your playlist with some radio streams using the `[streamlist]` shortcut like this:
+Use [player] shortcut to display the HTML5 audio tag player.
+
+Then you must create your playlist with some radio streams using the `[streamlist]` shortcut.
+
+Following arguments are available:
+
+STREAMURL = url of the radio stream
+STREAMNAME = name of the radio - wrap multiple words into quotes
 
     [streamlist http://stream0.wfmu.org/freeform-128k WFMU]
     [streamlist http://stream0.wfmu.org/ichiban "Ichiban Rock and Soul"]
@@ -29,10 +36,6 @@ First you must create your playlist with some radio streams using the `[streamli
     [streamlist http://audio.scdn.arkena.com/11016/fip-midfi128.mp3 "FIP Radio"]
 
 **Note:** Your playlist must be a single paragraph. Just leave 2 spaces at the end of a line to create a line break.
-
-Then you must display the HTML5 audio tag player:
-
-    [player]
 
 ## How to found some radio streams?
 
