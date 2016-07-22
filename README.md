@@ -21,7 +21,7 @@ To uninstall delete the plugin files.
 
 ## How to use Streamlist plugin?
 
-Use [player] shortcut to display the HTML5 audio tag player.
+Create `[player]` shortcut to display the HTML5 audio tag player.
 
 Then you must create your playlist with some radio streams using the `[streamlist]` shortcut.
 
