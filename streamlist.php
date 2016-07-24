@@ -29,7 +29,7 @@ class YellowStreamlist
 			list($streamurl, $streamname) = $this->yellow->toolbox->getTextArgs($text);
             		if(empty($streamname)) $streamname = "Stream Name ?";
 			$output .= "<span class=\"streamlist\">\n";
-			$output .= "<a href=\"".htmlspecialchars($streamurl)."\"><i class=\"fa fa-play\"></i> ".htmlspecialchars($streamname)."\n";
+			$output .= "<a href=\"".htmlspecialchars($streamurl)."\">&#x25BA;".htmlspecialchars($streamname)."\n";
 			$output .= "</a></span>\r\n";
 		}
 
