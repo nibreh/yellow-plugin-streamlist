@@ -40,4 +40,7 @@ Then create your playlist using the `[streamlist]` shortcut with the following a
 
 ## How to found some radio streams?
 
-Take a look here: http://wikradio.free.fr
+Take a look here: 
+
+- http://wikradio.free.fr
+- http://www.radio-browser.info
