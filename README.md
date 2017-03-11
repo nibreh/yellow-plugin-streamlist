@@ -34,9 +34,9 @@ Then create your playlist using the `[streamlist]` shortcut with the following a
     [player]
     
     [streamlist http://stream0.wfmu.org/freeform-128k WFMU]
-    [streamlist http://stream0.wfmu.org/ichiban "Ichiban Rock and Soul"]
-    [streamlist http://tsfjazz.ice.infomaniak.ch/tsfjazz-high "TSF Jazz"]
-
+    [streamlist http://stream0.wfmu.org/ichiban "WFMU Ichiban Rock and Soul"]
+    [streamlist http://stream0.wfmu.org/drummer "WFMU Give the Drummer Radio"]
+    
 ## How to found some radio streams?
 
 Take a look here: 
