@@ -29,6 +29,8 @@ Then create your playlist using the `[streamlist]` shortcut with the following a
 
 **Note:** Your playlist must be a single paragraph. Just leave 2 spaces at the end of a line to create a line break.
 
+By default, Streamlist comes with **Jquery 3.2.1** (https://code.jquery.com/jquery-3.2.1.min.js). You can change your version in `config.ini`.
+
 ## Example
 
     [player]
