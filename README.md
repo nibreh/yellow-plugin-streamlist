@@ -1,4 +1,4 @@
-# Streamlist Plugin 0.6.4
+# Streamlist Plugin 0.7.1
 
 Stream your favorite radios in a playlist with HTML5 audio.
 
