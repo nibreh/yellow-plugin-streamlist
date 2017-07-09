@@ -15,7 +15,7 @@ class YellowStreamlist
 		$this->yellow = $yellow;
 		if(!$this->yellow->config->isExisting("jqueryCdn"))
 		{
-			$this->yellow->config->setDefault("jqueryCdn", "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/");
+			$this->yellow->config->setDefault("jqueryCdn", "https://code.jquery.com/jquery-3.2.1.min.js");
 		}
 	}
 	
@@ -48,7 +48,7 @@ class YellowStreamlist
 		if($name=="header")
 		{
 			$jqueryCdn = $this->yellow->config->get("jqueryCdn");
-			$output .= "<script type=\"text/javascript\" src=\"{$jqueryCdn}jquery.min.js\"></script>\n";
+			$output .= "<script type=\"text/javascript\" src=\"{$jqueryCdn}\"></script>\n";
 		}
 
 		if($name=="footer")
