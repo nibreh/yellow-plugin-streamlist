@@ -6,7 +6,7 @@
 // Inspired by http://devblog.lastrose.com/html5-audio-video-playlist
 class YellowStreamlist
 {
-	const VERSION = "0.6.4";
+	const VERSION = "0.7.1";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
