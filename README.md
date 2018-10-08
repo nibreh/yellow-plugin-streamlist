@@ -4,7 +4,7 @@ Stream your favorite radios in a playlist with HTML5 audio.
 
 *Your browser must support [HTML5 audio tag](https://en.wikipedia.org/wiki/HTML5_Audio)*.
 
-Inspired by the tutorial from [Last Rose Studios](http://devblog.lastrose.com/html5-audio-video-playlist).
+Inspired by the tutorial from [Last Rose Studios](http://devblog.lastrose.com/html5-audio-video-playlist). You must have jQuery on your site.
 
 Check also [Medialist Plugin](https://github.com/nibreh/yellow-plugin-medialist) & [Audio Plugin](https://github.com/schulle4u/yellow-plugin-audio) for different uses.
 
@@ -13,10 +13,11 @@ Check also [Medialist Plugin](https://github.com/nibreh/yellow-plugin-medialist)
 ## How do I install this?
 
 1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
-2. [Download plugin](https://github.com/nibreh/yellow-plugin-streamlist/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
-3. Copy `master.zip` into your `system/plugins` folder.
+2. [Download and install jQuery plugin](https://github.com/nibreh/yellow-plugin-jquery)
+3. [Download plugin](https://github.com/nibreh/yellow-plugin-streamlist/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
+4. Copy `master.zip` into your `system/plugins` folder.
 
-To uninstall delete the plugin files.
+To uninstall delete the [plugin files](update.ini).
 
 ## How to use Streamlist plugin?
 
